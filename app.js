@@ -33,7 +33,7 @@ app.post('/login', keycloak.protect(), (req, res) => {
 
   // Make a request to the API URI using the access token
   request.post({
-    url: 'https://my-api-uri.com',
+    url: 'https://test-api-api-gateway-desa.apps.aro-desa.bh.com.ar/',
     headers: headers,
     body: JSON.stringify(req.body)
   }, (err, response, body) => {
