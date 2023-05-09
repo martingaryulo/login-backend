@@ -1,0 +1,13 @@
+{
+  "name": "login-backend",
+  "version": "1.0.0",
+  "description": "login-backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "keycloak-connect": "^10.1.0"
+  }
+}
